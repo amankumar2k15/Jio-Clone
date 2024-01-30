@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fiveG-bg {
+  background: url("https://jep-asset.akamaized.net/jiostaticresources/v05/images/bg.png") no-repeat center center/cover;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 19rem;
+
+
+}
+
+.slide-bg1 {
+  background: url("https://jep-asset.akamaized.net/jio/webp/homepage/saavn-19-05-2023.webp");
+  background-size: contain;
+  overflow: hidden;
+}
+
+.slide-bg2 {
+  background: url("https://jep-asset.akamaized.net/jio/webp/homepage/JioCloud-19-05.webp");
+  background-size: contain;
+  overflow: hidden;
+}
+
+.slide-bg3 {
+  background: url("https://jep-asset.akamaized.net/jio/webp/homepage/JioMart-19-05.webp");
+  background-size: contain;
+  overflow: hidden;
+}
+
+.slide-bg4 {
+  background: url("https://jep-asset.akamaized.net/jio/webp/homepage/saavn-19-05-2023.webp");
+  background-size: contain;
+  overflow: hidden;
+}
+
+.spotlight-bg {
+  background: url("https://jep-asset.akamaized.net/jio/webp/homepage/dive-side-desk-v5.webp");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 53rem;
+}
+
+.free-delhivrey-bg {
+  background: url(" https://www.jio.com/netmeds-v1.png");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.furniture-shopping-bg {
+  background: url("https://www.jio.com/urban-ladder-v1.png");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.Ajio-bg {
+  background: url("https://www.jio.com/ajio-v1.png");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.phone-bg {
+  background: url("https://www.jio.com/23.png");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+
+}
+
+.round-top {
+  border-top-left-radius: 50% 53px !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 50% 53px !important;
+  position: relative;
+  overflow: hidden;
+  width: 160%;
+  margin-top: -65px;
+  /* left:-30%; */
+  /* background-color:#444; */
+  /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a2/Tropical_Forest_with_Monkeys_A10893.jpg'); background-position: center center; */
+  /* background-size: 42% auto;
+    height:150px; */
+}
+
+.box-shadow {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.box-shadow:hover {
+  transition: ease-in-out;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+
+}
+
+.work-learn-grow-bg {
+  background: url("https://jep-asset.akamaized.net/jio/welcome-page-image/carrier-desktop.webp");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+
+}
+
+.grow-bussiness-bg {
+  background: url("https://jep-asset.akamaized.net/jio/webp/homepage/Jio-business-homepage-desktop.webp");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+
+}
+
+.smooth {
+  transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .fiveG-bg {
+    background: url("https://jep-asset.akamaized.net/jiostaticresources/v05/images/bg.png");
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 40rem;
+
+
+  }
+
+  .spotlight-bg {
+    background: url("https://jep-asset.akamaized.net/jio/webp/homepage/dive-side-desk-v5.webp");
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 14rem;
+  }
+
+  .width {
+    width: 21rem;
+  }
+
+  .work-learn-grow-bg {
+    background: url("https://jep-asset.akamaized.net/jio/welcome-page-image/carrier-desktop.webp");
+    /* background-size: contain; */
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+    height: 27rem;
+
+  }
+
+  .grow-bussiness-bg {
+    background: url("https://jep-asset.akamaized.net/jio/webp/homepage/Jio-business-homepage-desktop.webp");
+    /* background-size: contain; */
+    overflow: hidden;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+
+  }
+}
